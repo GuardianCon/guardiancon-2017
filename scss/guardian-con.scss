@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import "components/mixins";
+@import "components/variables";
+@import "components/normalize";
+@import "components/grid";
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  // width: 1160px;
+  // background: #151a1e url('../assets/GuardianCon17_Website_bg.png') no-repeat top center;
+  background: #151a1e no-repeat top center;
+}
+
+.navbar { margin-top: 10px; }
+.nav-logo img { width: 100%; }
+.nav-items {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 18px;
+  margin: 0 5px;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer {
+  height: 60px;
+  background: #000;
+  .row { margin: 0; }
+}
+@import "pages/home";

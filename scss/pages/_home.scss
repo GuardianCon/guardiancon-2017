@@ -1,0 +1,111 @@
+.gap {
+  height: 305px;
+  display: none;
+}
+
+.infobar {
+  text-align: center;
+  font-size: 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 8px 0;
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+  }
+}
+
+.summary {
+  border-bottom: 1px solid #fff;
+}
+
+.event-box {
+  margin-top: 16px;
+  background: #13191d;
+}
+.event-box-header {
+  background: #df2834;
+  height: 40px;
+  border-top: 2px solid #fff;
+  padding: 10px 10px 0 10px;
+  margin: 5px 0;
+  font-size: 18px;
+}
+.event-box-footer { background: #000; }
+
+.event-box-title,
+.event-box-details,
+.event-box-sub {
+  padding: 0 10px;
+  margin: 5px 0;
+}
+
+
+.sponsors {
+  text-align: center;
+  margin: 15px 0;
+  border-bottom: 1px solid #fff;
+  display: none;
+  li {
+    display: inline-block;
+    list-style-type: none;
+  }
+}
+
+.special {
+  margin: 15px 0;
+}
+.countdown {
+  background: #25152f;
+}
+.countdown-header {
+  background: #684B7B;
+  height: 30px;
+  font-size: 18px;
+  padding: 5px 15px 0;
+  border-top: 2px solid #fff;
+}
+.countdown-container { padding: 15px; }
+.countdown-details {}
+.countdown-check {
+  height: 18px;
+  width: 18px;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.countdown-bar {
+  height: 20px;  /* Can be anything */
+	position: relative;
+	background: #1F1E23;
+  width: 300px;
+  border: 1px solid #fff;
+  display: inline-block;
+  > span {
+    display: block;
+    height: 100%;
+    background: #6CB88B;
+    position: relative;
+    overflow: hidden;
+  }
+  .countdown-text {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.featured {
+  background: #0e2b1a;
+  padding-bottom: 5px;
+}
+.featured-header {
+  background: #6CB88B;
+  height: 40px;
+  border-top: 2px solid #fff;
+}
+.featured-banner {
+  background: url('http://placehold.it/290x85');
+  width: 290px;
+  height: 85px;
+  margin: 5px auto;
+}
