@@ -37,5 +37,9 @@ body {
   height: 60px;
   background: #000;
   .row { margin: 0; }
+  .copy {
+    list-style-type: none;
+    float: right;
+  }
 }
 @import "pages/home";

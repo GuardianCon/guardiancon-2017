@@ -32,15 +32,27 @@
   margin: 5px 0;
   font-size: 18px;
 }
+
+.event-box-lead { padding: 0 10px; }
+
 .event-box-footer { background: #000; }
 
 .event-box-title,
-.event-box-details,
-.event-box-sub {
+.event-box-details {
   padding: 0 10px;
-  margin: 5px 0;
+  // margin: 5px 0;
 }
 
+.event-box-sub {
+  padding: 0 10px;
+  color: #A5A7A8;
+}
+
+.event-box-icon,
+.event-box-flush {
+  display: inline-block;
+  vertical-align: top;
+ }
 
 .sponsors {
   text-align: center;
